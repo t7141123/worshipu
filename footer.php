@@ -3,10 +3,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <span class="copyright" style="color:#f8f9fa;">Copyright &copy; 毫無隱藏事工 - NHM 2018</span>
+        <span class="copyright" style="color:#f8f9fa;">Copyright &copy; WorshipU 詩歌譜網</span>
       </div>
       <div class="col-md-4">
-        <ul class="list-inline social-buttons">
+        <!-- <ul class="list-inline social-buttons">
           <li class="list-inline-item">
             <a href="https://www.facebook.com/NothingHiddenMinistriesTW/" target="_blank">
               <i class="fab fa-facebook-f"></i>
@@ -17,7 +17,7 @@
               <i class="fab fa-linkedin-in"></i>
             </a>
           </li>
-        </ul>
+        </ul> -->
       </div>
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
