@@ -1,7 +1,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="https://nothinghidden.com.tw/future3/index.html">
+    <a class="navbar-brand js-scroll-trigger" href="index.php">
       <img src="img/logos/logo1.png" height="50px"></img>
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -17,19 +17,7 @@
             關於我們
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/aboutus/ministry.html">事工簡介 Ministry Introduction</a>
-            <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/aboutus/slw.html">單身營會 Single Life Workshop</a>
-          </div>
-        </div>
-
-        <div class="dropdown">
-          <button class="btn dropdown-toggle nav-btn" type="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            活動資訊
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/activity/slw.html">單身營會 Single Life Workshop</a>
-            <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/activity/lam.html">夫妻之愛 Love After Marriage</a>
+            <a class="dropdown-item" href="ministry.php">事工簡介 Ministry Introduction</a>
           </div>
         </div>
 
@@ -39,13 +27,13 @@
             奉獻事工
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/offering/offering.html">奉獻方式 Donate Us</a>
+            <a class="dropdown-item" href="offering.php">奉獻方式 Donate Us</a>
           </div>
         </div>
 
         <div class="dropdown">
           <button class="btn nav-btn" type="button">
-            <a href="https://www.facebook.com/NothingHiddenMinistriesTW/" target="_blank" style="text-decoration:none;">
+            <a href="#" target="_blank" style="text-decoration:none;">
               FACEBOOK
             </a>
           </button>

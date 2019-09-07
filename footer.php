@@ -2,11 +2,11 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-lg-12 col-md-12 col-sm-12">
         <span class="copyright" style="color:#f8f9fa;">Copyright &copy; WorshipU 詩歌譜網</span>
       </div>
-      <div class="col-md-4">
-        <!-- <ul class="list-inline social-buttons">
+      <!-- <div class="col-lg-4 col-md-4 col-sm-4">
+        <ul class="list-inline social-buttons">
           <li class="list-inline-item">
             <a href="https://www.facebook.com/NothingHiddenMinistriesTW/" target="_blank">
               <i class="fab fa-facebook-f"></i>
@@ -17,9 +17,9 @@
               <i class="fab fa-linkedin-in"></i>
             </a>
           </li>
-        </ul> -->
-      </div>
-      <div class="col-md-4">
+        </ul>
+      </div> -->
+      <!-- <div class="col-lg-4 col-md-4 col-sm-4">
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
             <a href="#">Privacy Policy</a>
@@ -28,7 +28,7 @@
             <a href="#">Terms of Use</a>
           </li>
         </ul>
-      </div>
+      </div> -->
     </div>
   </div>
 </footer>

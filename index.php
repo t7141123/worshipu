@@ -13,7 +13,8 @@
   <link rel="shortcut icon" href="img/favicon.ico">
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <!-- Custom fonts for this template -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -24,22 +25,23 @@
   <link href="css/agency.css" rel="stylesheet">
 </head>
 
-<body id="page-top" style="height: 100%;">
+<body id="page-top">
   
   <!-- Navigation -->
   <?php include("navigation.php"); ?>
 
   <!-- Header -->
-  <header class="masthead" style="background-image: url('img/header/home.jpg');">
+  <header class="masthead">
     <div class="container">
+      <!-- Text -->
       <div class="intro-text">
         <div class="intro-heading">WorshipU - 和弦譜</div>
         <div class="intro-lead-in">找回起初敬拜的心。</div>
-
+        
         <!-- Search Bar -->
-        <div id="search">
-          <input type="text" placeholder="尋找想要的歌名：" style="display: inline-block; width: 60%">
-          <button style="display: inline-block;" type="button" onclick="javascript:location.href='#'">Search</button>
+        <div class="searchbar">
+          <input class="search" type="text" placeholder="搜尋歌名：" style="width: 60%;">
+          <button class="btn btn-secondary search-icon"  onclick="javascript:location.href='#'"><i class="fas fa-search" aria-hidden="true"></i></button>
         </div>
       </div>
     </div>

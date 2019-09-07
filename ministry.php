@@ -27,71 +27,14 @@
 <body id="page-top">
   
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="https://nothinghidden.com.tw/future3/index.html">
-        <img src="../img/logos/logo1.png" height="50px"></img>
-      </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <div class="dropdown">
-            <button class="btn dropdown-toggle nav-btn" type="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
-              關於我們
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/aboutus/ministry.html">事工簡介 Ministry Introduction</a>
-              <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/aboutus/slw.html">單身營會 Single Life Workshop</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="btn dropdown-toggle nav-btn" type="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
-              活動資訊
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/activity/slw.html">單身營會 Single Life Workshop</a>
-              <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/activity/lam.html">夫妻之愛 Love After Marriage</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="btn dropdown-toggle nav-btn" type="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
-              奉獻事工
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/offering/offering.html">奉獻方式 Donate Us</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="btn nav-btn" type="button">
-              <a href="https://www.facebook.com/NothingHiddenMinistriesTW/" target="_blank" style="text-decoration:none;">
-                FACEBOOK
-              </a>
-            </button>
-          </div>
-
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-
+  <?php include("navigation.php"); ?>
 
   <!-- Header -->
-  <header class="masthead" style="background-image: url('https://nothinghidden.com.tw/future3/img/header/aboutus-slw.jpg');">
+  <header class="masthead" style="background-image: url('https://nothinghidden.com.tw/future3/img/header/ministry.jpg');">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-heading">單身營會</div>
-        <div class="intro-lead-in">Single Life Workshop</div>
+        <div class="intro-heading">事工簡介</div>
+        <div class="intro-lead-in">MINISTRY INTRODUCTION</div>
       </div>
     </div>
   </header>
@@ -102,8 +45,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mx-auto text-center" style="padding: 0 50px 0 50px;">
-          <iframe width="700" height="400" src="https://www.youtube.com/embed/Hw1aZ-j6oVM" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h2 class="section-heading"><i>想像一下：沒有親密關係的人生會是如何呢？</i></h2>
+          <hr class="light my-4">
+          <p class="text-faded mb-4">
+            身為人類，我們都渴望愛並與身旁的人連結。<br>
+            然而，我們常不知道如何在關係中坦然、真誠地面對他人，造成我們忽略生命中最寶貴的禮物。<br>
+            因此我們對於親密關係很有負擔，期望幫助大家在關係中不只與神更加緊密，也與人更加緊密，在你所屬的團體中活出坦誠與分享自己脆弱的生活方式，
+            我們期望看到你人生中的每一段關係都充滿自由與豐盛的恩典！
+          </p>
         </div>
       </div>
     </div>
@@ -113,17 +62,19 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mx-auto text-center" style="padding: 0 50px 0 50px;">
-          <h2 class="section-heading"><i>神創造我們為要與人連結。</i></h2>
+          <h2 class="section-heading"><i>「毫無隱藏」事工團隊有什麼不同？</i></h2>
           <hr class="light my-4">
           <p class="text-faded mb-4">
-            我們渴望與他人建立關係，經歷親密關係與彼此連結是我們與生俱來的本能，經由關係了解別人的同時也認識自己。
-            然而，仍有很多人不知道該如何與人建立深度的連結。「單身營會」幫助我們與他人建立真實且有意義的關係，進而滿足我們渴望的真實連結。<br>
-            <br>
-            不知道該如何建立，由其是無法經歷你渴望的那種關係，常使我們沮喪甚至感到無助。<br>
-            我們明白，過去我們曾幫助數千名覺得自己無法經歷更深關係的人。<br>
-            <br>
-            「單身營會」是以「夫妻之愛」為基礎為單身者所量身訂做的，在營會中提供了重要的工具。<br>
-            無論是誰只要是你想要有更深一層關係的人，都能夠使用，無論是在友誼、約會甚至是在訂婚的婚約中。
+            我們相信關係不是遵照指示或規則，而是邀請你經歷一段旅程─學習讓神在你的每段關係中成為具有啟示性的重要角色。<br>
+            在真實的人生中運用「毫無隱藏」事工中最簡單的工具，進而使其他在你身邊的人經歷同樣的旅程。<br>
+            學習過程中，你與他人將擁有更深入的連結，你會發現你有不一樣的生活方式，每段關係變得更加緊密。
+          </p>
+          <br>
+          <p class="text-faded mb-4" style="color:#8e3b12d1;">
+            <i>
+              「神是大有能力的，無論歷史、關係與情況如何，神都能拯救。」<br>
+              – Eric & Candace Johnson, Bethel Redding Senior Leaders
+            </i>
           </p>
         </div>
       </div>
@@ -134,12 +85,20 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mx-auto text-center" style="padding: 0 50px 0 50px;">
-          <h2 class="section-heading"><i><b>參加單身營會，你將學會：</b></i></h2>
+          <h2 class="section-heading"><i>我們所做的是</i></h2>
           <hr class="light my-4">
           <p class="text-faded mb-4">
-            1. 發現如何在不同的關係中讓自己完全的被瞭解、被看見和被愛。<br>
-            2. 練習如何在與他人溝通和互動上，運用這些簡單又有力的工具來與他人建立更深的連結。<br>
-            3. 學習如何全然接受性慾，因為這是上帝賜給未婚者美好的禮物。
+            「毫無隱藏」事工團隊有「夫妻之愛」、「單身營會」、「靈的連結」等事工。<br>
+            透過這些事工，我們發展出一些資源、工具、活動，來幫助你經歷與神更深的連結。<br>
+            我們能提供的工具包含：書、手冊、工具書、教導、工作坊以及訓練。
+          </p>
+          <br>
+          <p class="text-faded mb-4" style="color:#8e3b12d1;">
+            <i>
+              「他們的事工非常獨特。敞開的生活方式拆毀人心內的高牆，他們的熱情振奮人心，他們活出的關係，<br>
+              給予在失能和無聊的關係中的人，一個強而有力的訊息。」<br>
+              – Kris & Kathy Vallotton, Bethel Church Sr. Associate Leaders
+            </i>
           </p>
         </div>
       </div>
@@ -150,10 +109,26 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mx-auto text-center" style="padding: 0 50px 0 50px;">
-          <h2 class="section-heading"><i>我</i></h2>
+          <h2 class="section-heading"><i>我們的歷史</i></h2>
           <hr class="light my-4">
           <p class="text-faded mb-4">
-            在
+            在2008年一次如夢般的與神相遇，神回應Barry 和 Lori Byrne夫婦的禱告，他們領受一個特別的醫治策略：如何強化、轉化婚姻！<br>
+            「夫妻之愛」(Love After Marriage)因此誕生，一開始是在加州雷丁的伯特利教會。<br>
+            <br>
+            在2010年，Brendon Byrne(Barry和Lori的兒子)逐漸明白他與妻子的關係雖然很好。<br>
+            但還可以更深入，他想讓關係變得更緊密，在不斷地追尋中，他創立並帶領單身事工：「單身營會」(Single Life Workshop)。<br>
+            <br>
+            在2014年， Byrne一家人建立「毫無隱藏」事工團隊，其中包含「夫妻之愛」、「單身營會」、「靈的連結」。<br>
+            他們選擇「毫無隱藏」做為事工的名稱，代表沒有隱藏、敞開心、公開脆弱為生活方式 ─ 這是整個事工的核心價值。<br>
+            <br>
+            現在Byrne夫婦、他們的兒子，還有事工代表們，在世界各地舉辦營會，幫助他人獲得極大的突破和自由，不只是與神的關係，還有人與人之間的關係與婚姻！
+          </p>
+          <br>
+          <p class="text-faded mb-4" style="color:#8e3b12d1;">
+            <i>
+              「Barry 和 Lori是在今日最超前的婚姻事工，與他們接觸生命將有極大的轉變，奇蹟將會不斷地發生。」<br>
+              – Danny & Sheri Silk, Loving On Purpose CEO’s & Founders
+            </i>
           </p>
         </div>
       </div>
@@ -223,39 +198,7 @@
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <span class="copyright" style="color:#f8f9fa;">Copyright &copy; 毫無隱藏事工 - NHM 2018</span>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/NothingHiddenMinistriesTW/" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.instagram.com/nothing_hidden/" target="_blank">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php include("footer.php"); ?>
   
   <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

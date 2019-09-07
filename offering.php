@@ -27,64 +27,7 @@
 <body id="page-top">
   
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="https://nothinghidden.com.tw/future3/index.html">
-        <img src="../img/logos/logo1.png" height="50px"></img>
-      </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <div class="dropdown">
-            <button class="btn dropdown-toggle nav-btn" type="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
-              關於我們
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/aboutus/ministry.html">事工簡介 Ministry Introduction</a>
-              <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/aboutus/slw.html">單身營會 Single Life Workshop</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="btn dropdown-toggle nav-btn" type="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
-              活動資訊
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/activity/slw.html">單身營會 Single Life Workshop</a>
-              <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/activity/lam.html">夫妻之愛 Love After Marriage</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="btn dropdown-toggle nav-btn" type="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
-              奉獻事工
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="https://nothinghidden.com.tw/future3/offering/offering.html">奉獻方式 Donate Us</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="btn nav-btn" type="button">
-              <a href="https://www.facebook.com/NothingHiddenMinistriesTW/" target="_blank" style="text-decoration:none;">
-                FACEBOOK
-              </a>
-            </button>
-          </div>
-
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-
+  <?php include("navigation.php"); ?>
 
   <!-- Header -->
   <header class="masthead" style="background-image: url('https://nothinghidden.com.tw/future3/img/header/ministry.jpg');">
@@ -255,39 +198,7 @@
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <span class="copyright" style="color:#f8f9fa;">Copyright &copy; 毫無隱藏事工 - NHM 2018</span>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/NothingHiddenMinistriesTW/" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.instagram.com/nothing_hidden/" target="_blank">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php include("footer.php"); ?>
   
   <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
